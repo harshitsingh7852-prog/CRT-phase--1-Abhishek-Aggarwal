@@ -1,4 +1,19 @@
+// program 1
+/ Online C++ compiler to run C++ program online
+//program to convert celcius to fahrenheit
+#include <iostream>
+using namespace std;
+int main() {
+    double celcius;
+    double fahrenheit;
+    cin>>celcius;
+    
+    fahrenheit = (celcius * 9.0 / 5.0) + 32;
+    cout<<fahrenheit<<endl;
+    return 0;
 
+}
+//program 2
 #include <iostream)
 using namespace std ;
 int globalvariable =100
@@ -9,5 +24,33 @@ int main () {
     cin >> localvariable ;
     result =(globalvariable / localvariable );
     cout<< result << endl;
+    return 0;
+}
+
+// program 3
+
+#include<iostream>
+using namespace std ;
+int main (){
+    int side1:side2:side3;
+    cin>>side1>>side2>>side3;
+    (side>0)(side1==side2)(sidel==side)
+    &&(side2==side3)
+}
+
+// program 4
+// swapping of two variable
+#include<iostream>
+using namespace std;
+int main() {
+    int a,b;
+    cin >> a >> b;
+    
+    // logic to swap  variable value
+    int temp = a;
+    a = b;
+    b = temp;
+    
+    cout << a << "\n" <<b << endl;
     return 0;
 }
