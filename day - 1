@@ -1,1 +1,13 @@
+#include <iostream)
+using namespace std ;
+int global variable =100
 
+int main () {
+    int local variable ;
+    int result ;
+    cin >> local variable ;
+    result =(global variable / local variable );
+    cout<< result << endl;
+    return 0;
+    
+}
