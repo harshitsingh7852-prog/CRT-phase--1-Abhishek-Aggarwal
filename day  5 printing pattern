@@ -50,6 +50,21 @@ int main () {
     cout << area;
 
 }
+// Program 4 
+// Types of Functions
+// Program 4.1 -- No argument , no Return values
+
+// #include <iostream>
+// using namespace std;
+
+// void bellRing(){
+//     cout << "Ting Tong...";
+// }
+
+// int main() {
+//     bellRing();
+// }
+
 
 // PROGRAM 4.2 
 // 
@@ -78,3 +93,16 @@ using namespace std ;
      cout << ticketnumber();
      
  }
+// program 
+#include<iostream>
+using namespace std ;
+
+float currencyconvertor(float rupee) {
+    return rupee / 95.25;
+}
+
+int main () {
+    cout<<currencyconvertor(200);
+    
+
+}
