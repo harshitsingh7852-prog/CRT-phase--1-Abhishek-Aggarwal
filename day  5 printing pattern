@@ -1,0 +1,80 @@
+// problem no 1 
+// pattern printing 
+
+#include<iostream>
+using namespace std ;
+int main () {
+    // upper triangle 
+    for (int i=1; i<=5; i++){
+        for (int j=1; j<=i; j++ ) {
+            cout << "*";
+    }
+    cout<<"\n";
+}
+// lower triangle 
+   for (int i= 5 -1; i >=1; i--) {
+        for(int j = 1; j <= i; j++){
+        cout <<"*";
+    }
+    cout <<"\n";
+}
+}
+
+// problem 2 
+//priting pattern 
+#include <iostream>
+using namespace std ;
+
+void printmessage(){
+    cout << "hii we are learning function ...";
+}
+int main (){ 
+    // function callling
+    printmessage();
+    return 0;
+    
+// program 3 
+//
+#include<iostream>
+using namespace std ;
+
+int calculateArea(int length,int width){
+    return length * width;
+    
+}
+
+int main () {
+    int a = 10;
+    int b = 5;
+    int area = calculateArea(a,b);
+    cout << area;
+
+}
+
+// PROGRAM 4.2 
+// 
+#include<iostream>
+using namespace std ;
+
+void sendmessage( string message){
+    cout << message ;
+    
+}
+
+int main () {
+     sendmessage("bjp wons ...");
+}
+
+// program 4.3 no argument , return values 
+#include <iostream>
+using namespace std ;
+ 
+ int ticketnumber (){
+     return 101;
+     
+ }
+ 
+ int main (){
+     cout << ticketnumber();
+     
+ }
